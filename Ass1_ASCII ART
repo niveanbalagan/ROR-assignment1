@@ -1,0 +1,14 @@
+puts " Enter a number: "
+number = gets.to_i
+puts "*" *( number *2)
+a= number/2
+
+while number/2< number
+  for i in 1...number
+  print " " * (number-2)
+  print "|" * i
+  puts "|" * i
+
+  number -= 1
+  end
+end
